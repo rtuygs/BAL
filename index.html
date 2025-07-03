@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Crypto Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Super Crypto Game</h1>
+        <button id="login-btn">تسجيل الدخول</button>
+        <div id="user-info" style="display: none;">
+            <p>مرحباً، <span id="user-name"></span></p>
+            <p>نقاطك: <span id="user-points">0</span></p>
+            <p>طاقتك: <span id="user-energy">100</span></p>
+            <button id="mine-btn">تعدين</button>
+            <button id="store-btn">المتجر</button>
+            <button id="tasks-btn">المهام</button>
+            <button id="guilds-btn">التحالفات</button>
+            <button id="world-btn">العالم الافتراضي</button>
+            <button id="leaderboard-btn">الترتيب العالمي</button>
+            <button id="marketplace-btn">السوق</button>
+            <button id="minigames-btn">الألعاب المصغرة</button>
+            <button id="achievements-btn">الإنجازات</button>
+            <button id="events-btn">الأحداث</button>
+            <button id="airdrop-btn">الأيردروب</button>
+            <button id="lootboxes-btn">صناديق الحظ</button>
+            <div id="dashboard"></div>
+            <div id="marketplace"></div>
+            <div id="minigames"></div>
+        </div>
+    </div>
+    <!-- استيراد مكتبات Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js"></script>
+    <!-- استيراد ملفات المشروع -->
+    <script src="firebase-config.js"></script>
+    <script src="auth.js"></script>
+    <script src="database.js"></script>
+    <script src="mining.js"></script>
+    <script src="energy.js"></script>
+    <script src="referral.js"></script>
+    <script src="tasks.js"></script>
+    <script src="store.js"></script>
+    <script src="guilds.js"></script>
+    <script src="world.js"></script>
+    <script src="dashboard.js"></script>
+    <script src="leaderboard.js"></script>
+    <script src="rewards.js"></script>
+    <script src="marketplace.js"></script>
+    <script src="lootboxes.js"></script>
+    <script src="minigames.js"></script>
+    <script src="airdrop.js"></script>
+    <script src="achievements.js"></script>
+    <script src="events.js"></script>
+    <script src="security.js"></script>
+    <script src="admin.js"></script>
+    <script src="ui.js"></script>
+    <script src="script.js"></script>
+</body>
+  </html>
